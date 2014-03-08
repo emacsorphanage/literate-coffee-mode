@@ -1,0 +1,7 @@
+Revision history for literate-coffee-mode.el
+
+Revision 0.02 2014/03/08 syohex
+  - Enable lexical binding
+
+Revision 0.01 2014/02/15 syohex
+  - Initial version

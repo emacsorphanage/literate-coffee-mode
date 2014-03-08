@@ -1,10 +1,10 @@
 ;;; literate-coffee-mode.el --- major-mode for Literate CoffeeScript -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2013 by Syohei YOSHIDA
+;; Copyright (C) 2014 by Syohei YOSHIDA
 
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-literate-coffee-mode
-;; Version: 0.01
+;; Version: 0.02
 ;; Package-Requires: ((coffee-mode "0.5.0"))
 
 ;; This program is free software; you can redistribute it and/or modify

@@ -1,4 +1,4 @@
-;;; literate-coffee-mode.el --- major-mode for Literate CoffeeScript
+;;; literate-coffee-mode.el --- major-mode for Literate CoffeeScript -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2013 by Syohei YOSHIDA
 

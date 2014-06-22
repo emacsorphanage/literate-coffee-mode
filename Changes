@@ -1,5 +1,8 @@
 Revision history for literate-coffee-mode.el
 
+Revision 0.03 2014/06/22 syohex
+  - Fix syntax-table issue
+
 Revision 0.02 2014/03/08 syohex
   - Enable lexical binding
 

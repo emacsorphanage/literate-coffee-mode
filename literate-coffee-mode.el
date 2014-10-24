@@ -129,5 +129,6 @@
 
 ;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.litcoffee\\'" . litcoffee-mode))
+(add-to-list 'auto-mode-alist '("\\.coffee.md\\'" . litcoffee-mode))
 
 ;;; literate-coffee-mode.el ends here

@@ -1,5 +1,9 @@
 Revision history for literate-coffee-mode.el
 
+Revision 0.04 2014/10/24 syohex
+  - Enable this mode for '.coffee.md' files
+    Thanks tagae
+
 Revision 0.03 2014/06/22 syohex
   - Fix syntax-table issue
 

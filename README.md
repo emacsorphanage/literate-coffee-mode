@@ -18,7 +18,7 @@ You can install `literate-coffee-mode` from MELPA with package.el
 
 * [coffee-mode](https://github.com/defunkt/coffee-mode)
 
-[melpa-link]: http://melpa.milkbox.net/#/literate-coffee-mode
-[melpa-stable-link]: http://melpa-stable.milkbox.net/#/literate-coffee-mode
-[melpa-badge]: http://melpa.milkbox.net/packages/literate-coffee-mode-badge.svg
-[melpa-stable-badge]: http://melpa-stable.milkbox.net/packages/literate-coffee-mode-badge.svg
+[melpa-link]: http://melpa.org/#/literate-coffee-mode
+[melpa-stable-link]: http://stable.melpa.org/#/literate-coffee-mode
+[melpa-badge]: http://melpa.org/packages/literate-coffee-mode-badge.svg
+[melpa-stable-badge]: http://stable.melpa.org/packages/literate-coffee-mode-badge.svg

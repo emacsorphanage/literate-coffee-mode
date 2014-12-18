@@ -34,6 +34,26 @@ if true
       (forward-cursor-on "if")
       (should (not (eq (face-at-point) 'font-lock-keyword-face))))))
 
+(ert-deftest highlight-indented-part-as-coffee-script ()
+  "Highlight indented part as CoffeeScript."
+  (let ((coffee-tab-width 2))
+    (with-litcoffee-temp-buffer
+      "
+    if true
+      console.log '/', foo"
+      (forward-cursor-on "if")
+      (should (face-at-cursor-p 'font-lock-keyword-face)))))
+
+(ert-deftest highlight-indented-part-by-tabs-as-coffee-script ()
+  "Highlight indented part by tabs as CoffeeScript."
+  (let ((coffee-tab-width 2))
+    (with-litcoffee-temp-buffer
+      "
+\tif true
+\t  console.log '/', foo"
+      (forward-cursor-on "if")
+      (should (face-at-cursor-p 'font-lock-keyword-face)))))
+
 (ert-deftest highlighting-slash ()
   "Regression test for #5"
   (with-litcoffee-temp-buffer

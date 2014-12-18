@@ -24,6 +24,16 @@
 (require 'ert)
 (require 'literate-coffee-mode)
 
+(ert-deftest not-highlighting-not-indented-part ()
+  "Not highlight not indented part"
+  (let ((coffee-tab-width 2))
+    (with-litcoffee-temp-buffer
+      "
+if true
+  console.log '/', foo"
+      (forward-cursor-on "if")
+      (should (not (eq (face-at-point) 'font-lock-keyword-face))))))
+
 (ert-deftest highlighting-slash ()
   "Regression test for #5"
   (with-litcoffee-temp-buffer

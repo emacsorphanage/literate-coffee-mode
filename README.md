@@ -18,7 +18,7 @@ You can install `literate-coffee-mode` from MELPA with package.el
 
 * [coffee-mode](https://github.com/defunkt/coffee-mode)
 
-[travis-badge]: https://travis-ci.org/syohex/emacs-literate-coffee-mode.png
+[travis-badge]: https://travis-ci.org/syohex/emacs-literate-coffee-mode.svg
 [travis-link]: https://travis-ci.org/syohex/emacs-literate-coffee-mode
 [melpa-link]: http://melpa.org/#/literate-coffee-mode
 [melpa-stable-link]: http://stable.melpa.org/#/literate-coffee-mode

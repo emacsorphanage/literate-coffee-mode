@@ -66,8 +66,11 @@
        (goto-char (match-end 1))
        (not (get-text-property (point) 'litcoffee-not-highlight))))
 
+(defvar litcoffee--string-interpolation-regexp
+  "#{[^}\n\\\\]*\\(?:\\\\.[^}\n\\\\]*\\)*}")
+
 (defun litcoffee--font-lock-string-interpolation (limit)
-  (and (re-search-forward coffee-string-interpolation-regexp limit t)
+  (and (re-search-forward litcoffee--string-interpolation-regexp limit t)
        (goto-char (match-end 0))
        (not (get-text-property (point) 'litcoffee-not-highlight))))
 

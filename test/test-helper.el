@@ -17,8 +17,6 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-;;; Commentary:
-
 ;;; Code:
 
 (require 'literate-coffee-mode)
@@ -45,7 +43,5 @@
 
 (defun face-at-cursor-p (face)
   (eq (face-at-point) face))
-
-(provide 'test-helper)
 
 ;;; test-helper.el ends here

@@ -1,6 +1,6 @@
 ;;; literate-coffee-mode.el --- major-mode for Literate CoffeeScript -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2014 by Syohei YOSHIDA
+;; Copyright (C) 2017 by Syohei YOSHIDA
 
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
 ;; URL: https://github.com/syohex/emacs-literate-coffee-mode
